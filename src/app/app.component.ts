@@ -14,6 +14,7 @@ export class AppComponent implements AfterContentInit{
   ngAfterContentInit(): void {
     this.initAvis();
     this.menuBurger();
+    this.dropDownMenuBurger()
   }
   dropDownMenuBurger(){
     const btnDropDownMenuBurger :  HTMLDivElement = document.querySelector('.menu-burger-nav_menu_li-dropdown-2') as HTMLDivElement;
